@@ -1,0 +1,11 @@
+.home-hero {
+    background-image: url('/src/assets/home/hero_sm.webp');
+    @screen sm {
+        background-image: url('/src/assets/home/hero_md.webp');
+    }
+    @screen md {
+        background-image: url('/src/assets/home/hero_lg.webp');
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
