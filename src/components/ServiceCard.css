@@ -1,0 +1,8 @@
+.service-card:hover {
+    background-image: url('/src/assets/home/hero_sm.webp');
+    color: white;
+}
+
+.service-card:hover .service-card__category {
+    color: white;
+}
