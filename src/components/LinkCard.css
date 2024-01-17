@@ -1,0 +1,17 @@
+.link-card:hover {
+    background-image: url('/src/assets/home/hero_sm.webp');
+    color: white;
+}
+
+.link-card:hover .link-card__category {
+    color: white;
+}
+
+.link-card--with-background {
+    background-image: url('/src/assets/home/hero_sm.webp');
+    color: white;
+    flex-grow: 1;
+}
+.link-card--with-background .link-card__category {
+    color: white;
+}

@@ -1,11 +1,11 @@
-import ServiceCard from "../ServiceCard"
+import LinkCard from "../LinkCard"
 const Services = () => {
   return (
     <section className="grid sm:grid-cols-2 lg:grid-cols-4">
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <LinkCard hasBorder={true} />
+        <LinkCard hasBorder={true} />
+        <LinkCard hasBorder={true} />
+        <LinkCard hasBorder={true} />
     </section>
   )
 }
