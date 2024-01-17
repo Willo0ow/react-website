@@ -1,0 +1,26 @@
+.navbar-slide-in {
+    animation: navbar-slide-in .5s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.navbar-slide-out {
+    animation: navbar-slide-out .5s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+@keyframes navbar-slide-in {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes navbar-slide-out {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
