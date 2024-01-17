@@ -1,6 +1,10 @@
+import HeroSection from "../components/HeroSection";
+
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <HeroSection title="About" fitContentHeight={true} />
+    </div>
   )
 }
 

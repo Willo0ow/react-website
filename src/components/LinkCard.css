@@ -11,6 +11,9 @@
     background-image: url('/src/assets/home/hero_sm.webp');
     color: white;
     flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .link-card--with-background .link-card__category {
     color: white;

@@ -1,13 +1,13 @@
-import Hero from "../components/home/Hero";
-import Services from "../components/home/Services";
+import HeroSection from "../components/HeroSection";
+import ServicesSection from "../components/ServicesSection";
 import ImageAndTextSection from "../components/ImageAndTextSection";
 import FeaturedItemsSection from "../components/FeaturedItemsSection";
 
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <Services />
+      <HeroSection />
+      <ServicesSection />
       <ImageAndTextSection imageSide="left" isImageProminent={true} />
       <ImageAndTextSection imageSide="right" isImageProminent={false} />
       <FeaturedItemsSection />

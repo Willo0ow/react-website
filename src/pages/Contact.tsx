@@ -1,7 +1,11 @@
+import HeroSection from "../components/HeroSection";
+
 const Contact = () => {
   return (
-    <div className='uppercase'>Contact</div>
-  )
-}
+    <div>
+      <HeroSection title="Contact" fitContentHeight={true} />
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
