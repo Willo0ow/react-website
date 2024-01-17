@@ -1,6 +1,7 @@
 import Hero from "../components/home/Hero";
 import Services from "../components/home/Services";
 import ImageAndTextSection from "../components/ImageAndTextSection";
+import FeaturedItemsSection from "../components/FeaturedItemsSection";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Services />
       <ImageAndTextSection imageSide="left" isImageProminent={true} />
       <ImageAndTextSection imageSide="right" isImageProminent={false} />
+      <FeaturedItemsSection />
     </div>
   );
 };
